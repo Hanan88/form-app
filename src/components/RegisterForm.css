@@ -1,0 +1,76 @@
+.form-controls {
+  width: 30%;
+  /* background-color: royalblue; */
+
+  margin: 0 auto;
+  overflow: hidden;
+  color: #00408a;
+}
+.register__heading {
+  color: #00408a;
+  margin: 30px 0;
+}
+.form-control {
+  margin: 15px 0;
+}
+.form-control input {
+  width: 100%;
+  padding: 15px 18px;
+  border-radius: 10px;
+  border: 1px solid #abaaaa;
+  box-sizing: border-box;
+}
+
+.form-control__radio {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.form-control__upload {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+.form-control__upload input {
+  display: none;
+}
+.form-control__upload__box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.form-control__upload__img {
+  border: 1px dashed #00408a;
+  padding: 25px;
+  border-radius: 15px;
+}
+.form-control__upload__label {
+  color: #a1a1a1;
+  font-size: 13px;
+}
+.form-controls hr {
+  margin: 37px auto 10px;
+  width: 90%;
+}
+.form-control__add {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-control__add button {
+  background: none;
+  border: none;
+  color: #00408a;
+  cursor: pointer;
+}
+/*
+.form-control__radio input {
+  width: 6rem;
+} */
+@media screen and (max-width: 800px) {
+  .form-controls {
+    width: 60%;
+  }
+}

@@ -1,0 +1,23 @@
+.home {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10%;
+}
+.home__heading {
+  color: #00408a;
+  margin: 30px auto 100px auto;
+  width: 70%;
+}
+.home__btn {
+  display: block;
+  width: 20rem;
+  height: 62px;
+  background: #00408a;
+  color: #ffffff;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 auto;
+}

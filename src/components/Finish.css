@@ -1,0 +1,10 @@
+.finish {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 10%;
+  text-align: center;
+}
+.finish__heading {
+  color: #abaaaa;
+  margin-top: 5%;
+}

@@ -1,0 +1,13 @@
+.header {
+  background-color: #00408a;
+  width: 100vw;
+  height: 80px;
+  text-align: left;
+}
+.header__btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+}
